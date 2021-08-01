@@ -15,7 +15,7 @@ export default function PuzzleContainer() {
     </div>
     <div className="mainLogoRight">
     <form className = "myform">
-     <input className="myFormField" type = "text" name = "stage" size = "20" readonly="read-only" defaultValue="Find The Difference"/>
+     <input className="myFormField" type = "text" name = "stage" size = "20" readOnly="read-only" defaultValue="Find The Difference"/>
   </form>
     </div>
     <div><center><OriginalPicture /></center></div>

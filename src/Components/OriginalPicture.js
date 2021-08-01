@@ -45,11 +45,11 @@ function OriginalPicture() {
 <>
 <img src={Image} alt="South Park" useMap="#image_map"/>
 <map name="image_map">
-  <area name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={() => HandleChange("itemOneFound")}/>
-  <area name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={() => HandleChange("itemTwoFound")}/>
-  <area name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={() => HandleChange("itemThreeFound")}/>
-  <area name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={() => HandleChange("itemFourFound")}/>
-  <area name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect"onClick={() => HandleChange("itemFiveFound")}/>
+  <area id="1" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange("itemOneFound", "1")}/>
+  <area id="2" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange("itemTwoFound", "2")}/>
+  <area id="3" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange("itemThreeFound", "3")}/>
+  <area id="4" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "4")}/>
+  <area id="5" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "5")}/>
 </map>
 </>
     )

@@ -239,3 +239,7 @@ color: slategray;
   width:fit-content;
   background-color: #fcac07;
 }
+
+.itemFound :target {
+  border: 2px solid black;
+}

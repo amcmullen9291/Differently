@@ -1,38 +1,241 @@
-.App {
-  text-align: center;
+body{
+  background-color:dodgerblue;
+}
+/* ----------main background css ------------- */
+.ReturnButton {
+color: #462132;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.PictureTitles{
+  color: #fcac07;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+display: flex;
+width: 100%;
+justify-content: flex-end;
+align-items: center;
+background: coral;
+height: 5%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+nav a {
+margin-right: 2%;
+color: white;
+text-decoration: none;
+font-size: 18px;
+}
+
+/* ------------- individual picture page ------------- */
+.OriginalPicHolder{
+width: 50%;
+/* height: 300px; only for demonstration, should be removed */
+background: #ccc;
+padding: 20px;
+border-style: groove;
+border-color: crimson;
+}
+
+.DifferentPicHolder{
+width: 50%;
+/* height: 300px; only for demonstration, should be removed */
+background: #ccc;
+padding: 20px;
+border-style: groove;
+border-color: crimson;
+
+}
+
+.pictureHolder {
+position:relative;
+background: tan;
+height: auto;
+width: auto;
+margin-right: 10px;
+margin-left: 10%;
+}
+
+.pictureHolderButton {
+position:relative;
+background: tan;
+height: auto;
+width: auto;
+margin-right: 10px;
+margin-left: 10%;
+font-size: 30px;
+
+}
+
+/* ----------main background css ------------- */
+.ReturnButton {
+color: #462132;
+}
+
+.PictureTitles{
+  color: #fcac07;
+}
+
+nav {
+display: flex;
+width: 100%;
+justify-content: flex-end;
+align-items: center;
+background: coral;
+height: 5%;
+}
+
+nav a {
+margin-right: 2%;
+color: white;
+text-decoration: none;
+}
+
+/* ------------- individual picture page ------------- */
+.OriginalPicHolder{
+width: 50%;
+/* height: 300px; only for demonstration, should be removed */
+background: #ccc;
+padding: 20px;
+border-style: groove;
+border-color: crimson;
+}
+
+.DifferentPicHolder{
+width: 50%;
+/* height: 300px; only for demonstration, should be removed */
+background: #ccc;
+padding: 20px;
+border-style: groove;
+border-color: crimson;
+}
+
+.mainLogo {
+  position: fixed;
+  font-family: cursive;
+  width: 15%;
+  height: 100v;
+  background: #312450;
+  font-size: 20px;
+  color: yellow;
+}
+
+.returnButton{
+background: orange;
+}
+
+/* .bottomMarker{
+height: 50px;
+background: darkslategrey;
+width: 100%;
+opacity: 75%;
+} */
+
+.banner{
+color: orange;
+}
+
+.greenE{
+color: orangered;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+}
+
+
+.pictures{
+max-width:25%;
+max-height: 25%;
+margin-left: 2%;
+}
+
+.pictureHolder {
+position:relative;
+background: grey;
+height: auto;
+width: auto;
+margin-right: 10px;
+margin-left: 10%;
+}
+
+.mainLogo {
+  position: fixed;
+  font-family: cursive;
+  width: 15%;
+  height: 100v;
+  background: #312450;
+  font-size: 20px;
+  color: yellow;
+}
+
+.returnButton{
+background: orange;
+}
+
+.bottomMarker{
+background: tan;
+width: 100%;
+opacity: 75%;
+
+}
+
+.banner{
+color: orange;
+}
+
+.greenE{
+color: orangered;
+font-family:Georgia, 'Times New Roman', Times, serif;
+font-size: 22px;
+}
+
+
+.pictures{
+max-width:25%;
+max-height: 25%;
+margin-left: 2%;
+}
+/* Change class name in picture.js to resize images */
+
+.LevelOneTitle {
+background: green;
+}
+
+.LevelTbuttonwoTitle{
+color: slategray;
+}
+
+.menuTitles {
+  color:#092ADB;
+}
+
+.coverArt {
+  max-width: 45%;
+  max-height: 45%;
+}
+
+.mainLogoRight {
+  position: fixed;
+  font-family: cursive;
+  width: 15%;
+  height: 100v;
+  margin-top: 15%;
+  margin-left: 80%;
+  font-size: 20px;
+  /* background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+}
+
+.myFormField{
+  background-color: chartreuse;
+  /* background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  font-size: 18px;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.instructions {
+  color:palevioletred;
+  font-size: 26px;
+  width:fit-content;
+  background-color: #fcac07;
 }

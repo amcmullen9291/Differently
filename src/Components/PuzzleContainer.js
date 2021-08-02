@@ -1,13 +1,10 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { NavLink } from 'react-router-dom';
 import OriginalPicture from './OriginalPicture';
 import DifferentPicture from './DifferentPicture';
 
 export default function PuzzleContainer() {
 
-  const [Original, setOriginal] = useState();
-
-    console.log("parent Verison of Original:", Original)
   return (
     <>
     <nav>

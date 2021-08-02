@@ -1,6 +1,4 @@
 import React, {useState } from 'react';
-// import ImageMap from "image-map";
-import Image from '../assets/originals/smallTown-different.jpg';
 
 function DifferentPicture() {
 
@@ -22,14 +20,42 @@ function DifferentPicture() {
  itemThreeCoords: '772,93,84',
  itemThreeShape: 'circle',
  itemThreeAlt: 'blimp',
- iteonFournd: false,
+ itemFourFound: false,
  itemFourCoords: '500,149,27',
  itemFourShape: 'circle',
  itemFourAlt: 'Butters',
- iteonFiveFound: false,
+ itemFiveFound: false,
  itemFiveCoords: '0,162,117,207',
  itemFiveShape: 'rect',
  itemFiveAlt: 'mountaintop'})
+
+ const [Original, setOriginal] = useState ({
+  id: "",
+  pictureName :'smallTown-different',
+  source: "",
+  picture: 18,
+  alt: 'Differently. Art', 
+  itemOneFound: false,
+  itemOneCoords: '694,242,52',
+  itemOneShape: 'circle',
+  itemOneAlt: 'Kenny', 
+  itemTwoFound: false,
+  itemTwoCoords: '784,528,67', 
+  itemTwoShape: 'circle',
+  itemTwoAlt: 'Kyle',
+  itemThreeFound: false,
+  itemThreeCoords: '772,93,84',
+  itemThreeShape: 'circle',
+  itemThreeAlt: 'blimp',
+  itemFourFound: false,
+  itemFourCoords: '500,149,27',
+  itemFourShape: 'circle',
+  itemFourAlt: 'Butters',
+  itemFiveFound: false,
+  itemFiveCoords: '0,162,117,207',
+  itemFiveShape: 'rect',
+  itemFiveAlt: 'mountaintop'})
+ 
 
  function HandleChange6(named, id){
   console.log(`${named}`)
@@ -38,7 +64,11 @@ function DifferentPicture() {
   console.log("Button id:", id)
   setDifferent({...Different, [`${named}`]: true})
   const changed6 = document.getElementById(`${id}`)
-  changed6.id = "found1";
+  changed6.id = "found6";
+  const originalchange1 = document.getElementById('apples');
+  setOriginal({...Original, [`${named}`]: true});
+  originalchange1.id = "found6";
+  originalchange1.disabled = true;
   changed6.disabled = true;
  }
 
@@ -49,7 +79,11 @@ function DifferentPicture() {
   console.log("Button id:", id)
   setDifferent({...Different, [`${named}`]: true})
   const changed7 = document.getElementById(`${id}`)
-  changed7.id = "found1";
+  changed7.id = "found7";
+  const originalchange2 = document.getElementById('pickles');
+  setOriginal({...Original, [`${named}`]: true});
+  originalchange2.id = "found7";
+  originalchange2.disabled = true;
   changed7.disabled = true;
  }
 
@@ -60,7 +94,11 @@ function DifferentPicture() {
   console.log("Button id:", id)
   setDifferent({...Different, [`${named}`]: true})
   const changed8 = document.getElementById(`${id}`)
-  changed8.id = "found1";
+  changed8.id = "found8";
+  const originalchange3 = document.getElementById('sidewalks');
+  setOriginal({...Original, [`${named}`]: true});
+  originalchange3.id = "found8";
+  originalchange3.disabled = true;
   changed8.disabled = true;
  }
 
@@ -71,7 +109,11 @@ function DifferentPicture() {
   console.log("Button id:", id)
   setDifferent({...Different, [`${named}`]: true})
   const changed9 = document.getElementById(`${id}`)
-  changed9.id = "found1";
+  changed9.id = "found9";
+  const originalchange4 = document.getElementById('popcorn');
+  setOriginal({...Original, [`${named}`]: true});
+  originalchange4.id = "found9";
+  originalchange4.disabled = true;
   changed9.disabled = true;
  }
 
@@ -82,11 +124,16 @@ function DifferentPicture() {
   console.log("Button id:", id)
   setDifferent({...Different, [`${named}`]: true})
   const changed10 = document.getElementById(`${id}`)
-  changed10.id = "found1";
+  changed10.id = "found10";
+  const originalchange5 = document.getElementById('cheesecake');
+  setOriginal({...Original, [`${named}`]: true});
+  originalchange5.id = "found10";
+  originalchange5.disabled = true;
   changed10.disabled = true;
  }
 
 console.log("Different Pic Attributes:", Different)
+console.log("Original Pic Attributes:", Original);
 
   return (
 <>

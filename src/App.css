@@ -390,7 +390,7 @@ a {
 /* -------------------Different set--------------- */
 /* --------------Different button1 css-------------- */
 
-#apples {
+#pillow {
   border: 3px none;
   position: absolute;
   left: 60%;
@@ -400,7 +400,7 @@ a {
   background: none;
 }
 
-#found1{
+#found6{
   border: 3px solid purple;
   position: absolute;
   left: 60%;
@@ -410,7 +410,7 @@ a {
   background: none;
 }
 /* --------------Different button2 css-------------- */
-#pickles{
+#sherbet{
   border: 3px none;
   position: absolute;
   left: 57%;
@@ -420,7 +420,7 @@ a {
   background: none;
 }
 
-#found2{
+#found7{
   border: 3px solid green;
   position: absolute;
   left: 57%;
@@ -431,7 +431,7 @@ a {
 }
 /* --------------Different button3 css-------------- */
 
-#found3{
+#found8{
   border: 3px solid hotpink;
   position: absolute;
   left: 0%;
@@ -441,7 +441,7 @@ a {
   background: none;
 }
 
-#sidewalks{
+#ostrich{
   border: 3px none;
   position: absolute;
   left: 0%;  
@@ -453,7 +453,7 @@ a {
 
 /* --------------Different button4 css-------------- */
 
-#popcorn{
+#marmalade{
   border: 3px none;
   position: absolute;
   left: 74.5%;
@@ -463,7 +463,7 @@ a {
   background: none;
 }
 
-#found4{
+#found9{
   border: 3px solid red;
   position: absolute;
   left: 74.5%;
@@ -475,7 +475,7 @@ a {
 
 /* --------------Different button5 css-------------- */
 
-#cheesecake{
+#snorkel{
   border: 3px none;
   position: absolute;
   left: 37%;
@@ -485,7 +485,7 @@ a {
   background: none;
 }
 
-#found5{
+#found10{
   border: 3px solid grey;
   position: absolute;
   left: 37%;

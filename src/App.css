@@ -170,9 +170,17 @@ margin-left: 10%;
 background: orange;
 }
 
+#leaveButton{
+  left: 90%;
+  background: blue;
+}
+
 .bottomMarker{
 background: tan;
-width: 100%;
+/* width: 75%; */
+left: 50%;
+/* margin-right: 0%; */
+/* left: 50%; */
 opacity: 75%;
 
 }
@@ -262,52 +270,126 @@ a {
   height: 480px;
   width: 623px;
   border: 3px solid red;
+  position: relative;
 }
 
 #image2{
-  background-image: url(./assets/originals/smallTown.jpg) ;
+  background-image: url(./assets/originals/smallTown-different.jpg) ;
   height: 480px;
   width: 623px;
   border: 3px solid red;
+  position: relative;
 }
-/* --------------button css-------------- */
+/* --------------button1 css-------------- */
 #apples {
   border: 3px none;
-  position: relative;
-  left:7.5%;
-  top: 90%;
-  height:20px;
-  width: 25px;
+  position: absolute;
+  left: 60%;
+  top: 87%;
+  height: 9%;
+  width: 5%;
   background: none;
 }
 
 #found1{
   border: 3px solid purple;
-  position: relative;
-  left:7.5%;
-  top: 90%;
-  height:20px;
-  width: 25px;
+  position: absolute;
+  left: 60%;
+  top: 87%;
+  height:9%;
+  width: 5%;
   background: none;
 }
-
+/* --------------button2 css-------------- */
 #pickles{
   border: 3px none;
-  position: relative;
-  left: 17.5%;
-  top: 20%;
-  height:25px;
-  width: 40px;
+  position: absolute;
+  left: 23%;
+  top: 12%;
+  height:12%;
+  width: 8%;
   background: none;
 }
 
 #found2{
   border: 3px solid green;
-  position: relative;
-  left: 17.5%;
-  top: 20%;
-  height:25px;
-  width: 40px;
+  position: absolute;
+  left: 57%;
+  top: 16%;
+  height:17%;
+  width: 8%;
   background: none;
 }
+/* --------------button3 css-------------- */
+
+#found3{
+  border: 3px solid hotpink;
+  position: absolute;
+  left: 0%;
+  top: 38%;
+  height:18%;
+  width: 9%;
+  background: none;
+  /* 7,190,59,258 */
+}
+
+#sidewalks{
+  border: 3px none;
+  position: absolute;
+  left: 0%;  
+  top: 38%;
+  height:18%;
+  width: 9%;
+  background: none;
+  /* 7,190,59,258 */
+}
+
+/* --------------button4 css-------------- */
+
+#popcorn{
+  border: 3px none;
+  position: absolute;
+  left: 74.5%;
+  top: 52%;
+  height:10%;
+  width: 8%;
+  background: none;
+  /* 7,190,59,258 */
+}
+
+#found4{
+  border: 3px solid red;
+  position: absolute;
+  left: 74.5%;
+  top: 52%;
+  height:10%;
+  width: 8%;
+  background: none;
+  /* 7,190,59,258 */
+}
+
+/* --------------button5 css-------------- */
+
+#popcorn{
+  border: 3px none;
+  position: absolute;
+  left: 32%;
+  top: 45%;
+  height:10%;
+  width: 8%;
+  background: none;
+  /* 7,190,59,258 */
+}
+
+#found5{
+  border: 3px solid grey;
+  position: absolute;
+  left: 37%;
+  top: 30%;
+  height:15%;
+  width: 8%;
+  background: none;
+  /* 7,190,59,258 */
+}
+
 

@@ -41,8 +41,8 @@ function OriginalPicture() {
      console.log("Button id:", id)
      setOriginal({...Original, [`${named}`]: true})
      const changed = document.getElementById(`${id}`)
-     changed.id= "";
-     changed.id = "found1"
+     changed.id = "found1";
+     changed.disabled = true;
     }
 
     function HandleChange2(named, id){
@@ -51,9 +51,9 @@ function OriginalPicture() {
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
       setOriginal({...Original, [`${named}`]: true})
-      const changed = document.getElementById(`${id}`)
-      changed.id= "";
-      changed.id = "found2"
+      const changed2 = document.getElementById(`${id}`)
+      changed2.id = "found2"
+      changed2.disabled = true;
      }
 
      function HandleChange3(named, id){
@@ -62,9 +62,9 @@ function OriginalPicture() {
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
       setOriginal({...Original, [`${named}`]: true})
-      const changed = document.getElementById(`${id}`)
-      changed.id= "";
-      changed.id = "found1"
+      const changed3 = document.getElementById(`${id}`)
+      changed3.id = "found3";
+      changed3.disabled = true;
      }
 
      function HandleChange4(named, id){
@@ -73,9 +73,10 @@ function OriginalPicture() {
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
       setOriginal({...Original, [`${named}`]: true})
-      const changed = document.getElementById(`${id}`)
-      changed.id= "";
-      changed.id = "found1"
+      const changed4 = document.getElementById(`${id}`)
+      changed4.id= "";
+      changed4.id = "found4"
+      changed4.disabled = true;
      }
 
      function HandleChange5(named, id){
@@ -84,9 +85,11 @@ function OriginalPicture() {
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
       setOriginal({...Original, [`${named}`]: true})
-      const changed = document.getElementById(`${id}`)
-      changed.id= "";
-      changed.id = "found1"
+      const changed5 = document.getElementById(`${id}`)
+      changed5.id= "";
+      changed5.id = "found1"
+      changed5.disabled = true;
+
      }
  
 
@@ -94,11 +97,11 @@ function OriginalPicture() {
  return (
 <>
 <div id="image1">
-  <button id="pickles" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
-  <button id="original_two" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange("itemTwoFound", "original_two")}/>
-  <button id="original_three" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange("itemThreeFound", "original_three")}/>
-  <button id="original_four" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "original_four")}/>
-  <button id="apples" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "apples")}/>
+  <button id="found2" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
+  <button id="found4" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "popcorn")}/>
+  <button id="found3" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "sidewalks")}/>
+  <button id="found5" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "sandcastles")}/>
+  <button id="found1" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange5("itemFiveFound", "cheesecake")}/>
 </div>
 </>
     )

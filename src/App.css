@@ -240,6 +240,74 @@ color: slategray;
   background-color: #fcac07;
 }
 
-.itemFound :target {
-  border: 2px solid black;
+a {
+  border: 3px solid yellow;
 }
+
+/* #picture1{
+  position:absolute;
+} */
+
+/* #five{
+  position:absolute;
+  top: 380;
+  left:431;
+  bottom: 405;
+  right: 454;
+  border: 3px solid purple;
+} */
+
+#image1{
+  background-image: url(./assets/originals/smallTown.jpg) ;
+  height: 480px;
+  width: 623px;
+  border: 3px solid red;
+}
+
+#image2{
+  background-image: url(./assets/originals/smallTown.jpg) ;
+  height: 480px;
+  width: 623px;
+  border: 3px solid red;
+}
+/* --------------button css-------------- */
+#apples {
+  border: 3px none;
+  position: relative;
+  left:7.5%;
+  top: 90%;
+  height:20px;
+  width: 25px;
+  background: none;
+}
+
+#found1{
+  border: 3px solid purple;
+  position: relative;
+  left:7.5%;
+  top: 90%;
+  height:20px;
+  width: 25px;
+  background: none;
+}
+
+#pickles{
+  border: 3px none;
+  position: relative;
+  left: 17.5%;
+  top: 20%;
+  height:25px;
+  width: 40px;
+  background: none;
+}
+
+#found2{
+  border: 3px solid green;
+  position: relative;
+  left: 17.5%;
+  top: 20%;
+  height:25px;
+  width: 40px;
+  background: none;
+}
+

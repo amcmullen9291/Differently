@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
-// import ImageMap from "image-map";
 import Image from '../assets/originals/smallTown.jpg';
 
 function OriginalPicture() {
   
      const [Original, setOriginal] = useState ({
  id: "",
- pictureName :'south-park-characters',
+ pictureName :'smallTown',
  source: "",
  picture: 18,
  alt: "Differently. Art", 
@@ -30,27 +29,77 @@ function OriginalPicture() {
  itemFiveShape: 'rect',
  itemFiveAlt: 'mountaintop',
  itemFiveFound: false,
- name: " "
+ name: " ",
 })
 
- function HandleChange(named){
+
+
+ function HandleChange(named, id){
      console.log(`${named}`)
      var itemFound = named;
      console.log("pre set:", itemFound)
+     console.log("Button id:", id)
      setOriginal({...Original, [`${named}`]: true})
+     const changed = document.getElementById(`${id}`)
+     changed.id= "";
+     changed.id = "found1"
     }
+
+    function HandleChange2(named, id){
+      console.log(`${named}`)
+      var itemFound = named;
+      console.log("pre set:", itemFound)
+      console.log("Button id:", id)
+      setOriginal({...Original, [`${named}`]: true})
+      const changed = document.getElementById(`${id}`)
+      changed.id= "";
+      changed.id = "found2"
+     }
+
+     function HandleChange3(named, id){
+      console.log(`${named}`)
+      var itemFound = named;
+      console.log("pre set:", itemFound)
+      console.log("Button id:", id)
+      setOriginal({...Original, [`${named}`]: true})
+      const changed = document.getElementById(`${id}`)
+      changed.id= "";
+      changed.id = "found1"
+     }
+
+     function HandleChange4(named, id){
+      console.log(`${named}`)
+      var itemFound = named;
+      console.log("pre set:", itemFound)
+      console.log("Button id:", id)
+      setOriginal({...Original, [`${named}`]: true})
+      const changed = document.getElementById(`${id}`)
+      changed.id= "";
+      changed.id = "found1"
+     }
+
+     function HandleChange5(named, id){
+      console.log(`${named}`)
+      var itemFound = named;
+      console.log("pre set:", itemFound)
+      console.log("Button id:", id)
+      setOriginal({...Original, [`${named}`]: true})
+      const changed = document.getElementById(`${id}`)
+      changed.id= "";
+      changed.id = "found1"
+     }
+ 
 
  console.log("Original Picture Attributes:", Original);
  return (
 <>
-<img src={Image} alt="South Park" useMap="#image_map"/>
-<map name="image_map">
-  <area id="1" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange("itemOneFound", "1")}/>
-  <area id="2" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange("itemTwoFound", "2")}/>
-  <area id="3" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange("itemThreeFound", "3")}/>
-  <area id="4" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "4")}/>
-  <area id="5" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "5")}/>
-</map>
+<div id="image1">
+  <button id="pickles" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
+  <button id="original_two" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange("itemTwoFound", "original_two")}/>
+  <button id="original_three" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange("itemThreeFound", "original_three")}/>
+  <button id="original_four" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "original_four")}/>
+  <button id="apples" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "apples")}/>
+</div>
 </>
     )
 }

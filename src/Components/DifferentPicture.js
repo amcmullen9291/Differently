@@ -39,16 +39,19 @@ console.log("Different Pic Attributes:", Different)
 
   return (
 <>
-<img src={Image} alt="South Park" useMap="#image_map"/>
-<map name="image_map">
-  <area alt="chimney" name="itemOneFound" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={HandleChange}/>
-  <area alt="doorTop" name="itemTwoFound" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={HandleChange}/>
-  <area alt="missingWindow" name="itemThreeFound" title="missingWindow" href="#" coords="7,190,59,258" shape="rect" onClick={HandleChange}/>
-  <area alt="whiteHouseWindow" name="itemFourFound" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect" onClick={HandleChange}/>
-  <area alt="kidsShorts" name="itemFiveFound" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={HandleChange}/>
-</map>
-
+{/* <img src={Image} alt="South Park" useMap="#image_map"/> */}
+<div id="image2">
+{/* <img src={Image} alt="South Park" className="image1"/> */}
+{/* <map name="image_map"> */}
+  <area id="different_one" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange("itemOneFound", "one")}/>
+  <area id="different_two" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange("itemTwoFound", "two")}/>
+  <area id="different_three" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange("itemThreeFound", "three")}/>
+  <area id="different_four" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "four")}/>
+  <button id="different_five" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "five")}/>
+{/* </map> */}
+</div>
 </>
+
   )
 }
 

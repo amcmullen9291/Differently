@@ -74,11 +74,10 @@ function OriginalPicture() {
       console.log("Button id:", id)
       setOriginal({...Original, [`${named}`]: true})
       const changed4 = document.getElementById(`${id}`)
-      changed4.id= "";
-      changed4.id = "found4"
+      changed4.id = "found4";
       changed4.disabled = true;
      }
-
+ 
      function HandleChange5(named, id){
       console.log(`${named}`)
       var itemFound = named;
@@ -86,22 +85,19 @@ function OriginalPicture() {
       console.log("Button id:", id)
       setOriginal({...Original, [`${named}`]: true})
       const changed5 = document.getElementById(`${id}`)
-      changed5.id= "";
-      changed5.id = "found1"
+      changed5.id = "found5";
       changed5.disabled = true;
-
      }
- 
 
  console.log("Original Picture Attributes:", Original);
  return (
 <>
 <div id="image1">
-  <button id="found2" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
-  <button id="found4" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "popcorn")}/>
-  <button id="found3" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "sidewalks")}/>
-  <button id="found5" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "sandcastles")}/>
-  <button id="found1" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange5("itemFiveFound", "cheesecake")}/>
+  <button id="pickles" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
+  <button id="popcorn" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "popcorn")}/>
+  <button id="sidewalks" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "sidewalks")}/>
+  <button id="cheesecake" name= "itemFourFound" alt="Boy's Shorts" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "cheesecake")}/>
+  <button id="apples" name= "itemFiveFound" alt="WhiteHouse Window" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "apples")}/>
 </div>
 </>
     )

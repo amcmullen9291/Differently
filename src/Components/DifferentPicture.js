@@ -6,7 +6,7 @@ function DifferentPicture() {
 
      const [Different, setDifferent] = useState ({
  id: "",
- pictureName :'south-park-characters',
+ pictureName :'smallTown-different',
  source: "",
  picture: 18,
  alt: 'Differently. Art', 

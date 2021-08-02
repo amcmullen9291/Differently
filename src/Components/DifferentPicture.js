@@ -31,24 +31,71 @@ function DifferentPicture() {
  itemFiveShape: 'rect',
  itemFiveAlt: 'mountaintop'})
 
- function HandleChange(e){
-    setDifferent({...Different, [e.target.name]: [e.target.value = true]});
-  }
+ function HandleChange6(named, id){
+  console.log(`${named}`)
+  var itemFound = named;
+  console.log("pre set:", itemFound)
+  console.log("Button id:", id)
+  setDifferent({...Different, [`${named}`]: true})
+  const changed6 = document.getElementById(`${id}`)
+  changed6.id = "found1";
+  changed6.disabled = true;
+ }
+
+ function HandleChange7(named, id){
+  console.log(`${named}`)
+  var itemFound = named;
+  console.log("pre set:", itemFound)
+  console.log("Button id:", id)
+  setDifferent({...Different, [`${named}`]: true})
+  const changed7 = document.getElementById(`${id}`)
+  changed7.id = "found1";
+  changed7.disabled = true;
+ }
+
+ function HandleChange8(named, id){
+  console.log(`${named}`)
+  var itemFound = named;
+  console.log("pre set:", itemFound)
+  console.log("Button id:", id)
+  setDifferent({...Different, [`${named}`]: true})
+  const changed8 = document.getElementById(`${id}`)
+  changed8.id = "found1";
+  changed8.disabled = true;
+ }
+
+ function HandleChange9(named, id){
+  console.log(`${named}`)
+  var itemFound = named;
+  console.log("pre set:", itemFound)
+  console.log("Button id:", id)
+  setDifferent({...Different, [`${named}`]: true})
+  const changed9 = document.getElementById(`${id}`)
+  changed9.id = "found1";
+  changed9.disabled = true;
+ }
+
+ function HandleChange10(named, id){
+  console.log(`${named}`)
+  var itemFound = named;
+  console.log("pre set:", itemFound)
+  console.log("Button id:", id)
+  setDifferent({...Different, [`${named}`]: true})
+  const changed10 = document.getElementById(`${id}`)
+  changed10.id = "found1";
+  changed10.disabled = true;
+ }
 
 console.log("Different Pic Attributes:", Different)
 
   return (
 <>
-{/* <img src={Image} alt="South Park" useMap="#image_map"/> */}
 <div id="image2">
-{/* <img src={Image} alt="South Park" className="image1"/> */}
-{/* <map name="image_map"> */}
-  <area id="different_one" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange("itemOneFound", "one")}/>
-  <area id="different_two" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange("itemTwoFound", "two")}/>
-  <area id="different_three" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange("itemThreeFound", "three")}/>
-  <area id="different_four" name= "itemFourFound" alt="whiteHouseWindow" title="whiteHouseWindow" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange("itemFourFound", "four")}/>
-  <button id="different_five" name= "itemFiveFound" alt="kidsShorts" title="kidsShorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "five")}/>
-{/* </map> */}
+  <button id="sherbet" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange7("itemOneFound", "sherbet")}/>
+  <button id="marmalade" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange9("itemTwoFound", "marmalade")}/>
+  <button id="ostrich" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange8("itemThreeFound", "ostrich")}/>
+  <button id="snorkel" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange10("itemFourFound", "snorkel")}/>
+  <button id="pillow" name= "itemFiveFound" alt="Boy's Shorts" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange6("itemFiveFound", "pillow")}/>
 </div>
 </>
 

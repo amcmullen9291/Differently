@@ -280,6 +280,8 @@ a {
   border: 3px solid red;
   position: relative;
 }
+
+/* -----------------------------original set-------------------------- */
 /* --------------button1 css-------------- */
 #apples {
   border: 3px none;
@@ -385,5 +387,110 @@ a {
   width: 8%;
   background: none;
 }
+/* -------------------Different set--------------- */
+/* --------------Different button1 css-------------- */
 
+#apples {
+  border: 3px none;
+  position: absolute;
+  left: 60%;
+  top: 87%;
+  height: 9%;
+  width: 5%;
+  background: none;
+}
 
+#found1{
+  border: 3px solid purple;
+  position: absolute;
+  left: 60%;
+  top: 87%;
+  height:9%;
+  width: 5%;
+  background: none;
+}
+/* --------------Different button2 css-------------- */
+#pickles{
+  border: 3px none;
+  position: absolute;
+  left: 57%;
+  top: 16%;
+  height:17%;
+  width: 8%;
+  background: none;
+}
+
+#found2{
+  border: 3px solid green;
+  position: absolute;
+  left: 57%;
+  top: 16%;
+  height:17%;
+  width: 8%;
+  background: none;
+}
+/* --------------Different button3 css-------------- */
+
+#found3{
+  border: 3px solid hotpink;
+  position: absolute;
+  left: 0%;
+  top: 38%;
+  height:18%;
+  width: 9%;
+  background: none;
+}
+
+#sidewalks{
+  border: 3px none;
+  position: absolute;
+  left: 0%;  
+  top: 38%;
+  height:18%;
+  width: 9%;
+  background: none;
+}
+
+/* --------------Different button4 css-------------- */
+
+#popcorn{
+  border: 3px none;
+  position: absolute;
+  left: 74.5%;
+  top: 52%;
+  height:10%;
+  width: 8%;
+  background: none;
+}
+
+#found4{
+  border: 3px solid red;
+  position: absolute;
+  left: 74.5%;
+  top: 52%;
+  height:10%;
+  width: 8%;
+  background: none;
+}
+
+/* --------------Different button5 css-------------- */
+
+#cheesecake{
+  border: 3px none;
+  position: absolute;
+  left: 37%;
+  top: 30%;
+  height:15%;
+  width: 8%;
+  background: none;
+}
+
+#found5{
+  border: 3px solid grey;
+  position: absolute;
+  left: 37%;
+  top: 30%;
+  height:15%;
+  width: 8%;
+  background: none;
+}

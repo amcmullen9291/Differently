@@ -1,6 +1,12 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom';
 import Image from '../assets/originals/smallTown.jpg';
+import Image2 from '../assets/originals/iceFishing.jpg';
+import Image3 from '../assets/originals/nascar.jpg';
+import Image4 from '../assets/originals/living-room.jpg';
+import Image5 from '../assets/originals/garfield.jpg';
+import Image6 from '../assets/originals/logosUS.jpg';
+
 
 
 
@@ -25,12 +31,17 @@ return (
         <b>Ditto.</b> <br/>
         </div>
         <div className="pictureHolder">
-            <h2 className="gallerySign">G A L L E R Y</h2>
-            <center><button id="indexButton"><a href={`/Differently/:id/:pictureName`}>On to the puzzles</a></button></center>
-            <center><img src={Image} alt="small Town" className="pictures"></img></center>
+        <div id="indexButton">On to the puzzles</div>
+            <h2 className="gallerySign">G A L L E R Y</h2><br/>
+            <center><a href={`/Differently/1/smallTown`}><img src={Image} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/2/iceFishing`}><img src={Image2} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/3/nascar`}><img src={Image3} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/4/living-room`}><img src={Image4} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/5/garfield`}><img src={Image5} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/6/logosUS`}><img src={Image6} alt="small Town" className="pictures"/></a></center>
         </div>
         <footer className="bottomMarker">     <nav>
-        <NavLink to={"/"} id="leaveButton">QUIT</NavLink>
+        <NavLink to={"/"} id="leaveButton">L    E   A   V   E</NavLink>
     </nav>
 </footer>
     </>

@@ -145,6 +145,7 @@ font-size: 22px;
 max-width:25%;
 max-height: 25%;
 margin-left: 2%;
+border: 2px solid #C4B11F;
 }
 
 .pictureHolder {
@@ -172,7 +173,7 @@ background: orange;
 
 #leaveButton{
   left: 90%;
-  background: blue;
+  /* background: blue; */
 }
 
 .bottomMarker{
@@ -248,7 +249,7 @@ color: slategray;
   background-color: #fcac07;
 }
 
-a {
+.returnHome {
   border: 3px solid yellow;
 }
 
@@ -494,3 +495,12 @@ a {
   width: 8%;
   background: none;
 }
+
+#indexButton{
+  color: #FF9472;
+  width:fit-content;
+  opacity: 75%;
+  font-size: 36px;
+}
+
+/* ----------------------image 2 CSS-------------------------- */

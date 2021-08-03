@@ -21,14 +21,7 @@ export default class FrontPage extends PureComponent {
             </ul>
     <b>Ditto.</b> <br/>
     </div>
-    <div className="pictureHolder">
-        <center><Link to="/Differently"><img src="http://localhost:3000/Front/FtD-CoverArt.jpg" alt="FtD CoverArt" className="coverArt"/></Link></center><br/>
-    <hr/>
-
-    </div>
-    <div className="pictureHolder">
-        <center><Link to="/Differently"><img src="http://localhost:3000/Front/FtD-CoverArt-different.jpg" alt="FtD CoverArt" className="coverArt"/></Link></center>
-    </div>
+        <center><Link to="/Differently"><center><button id="FrontOriginal">start</button></center></Link></center>
     
     {/* <footer className="bottomMarker"></footer> */}
 </>

@@ -1158,3 +1158,12 @@ color: slategray;
 }
 
 
+#FrontOriginal{
+  background-color: indigo;
+  height:50px;
+  width: 50px;
+  color: tan;
+  font-size: 18px;
+  border-radius: 59%;
+}
+

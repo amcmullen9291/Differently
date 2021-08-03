@@ -139,11 +139,11 @@ const [Different, setDifferent] = useState ({
  return (
 <>
 <div id="image3">
-<button id="ablaze" name= "itemOneFound" alt="hanging-picture" title="hanging-picture" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "ablaze")}/>
-  <button id="purring" name= "itemTwoFound" alt="WallPicture" title="wallPicture" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "purring")}/>
-  <button id="provide" name= "itemThreeFound" alt="carpet" title="carpet" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "provide")}/>
-  <button id="glossy" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "glossy")}/>
-  <button id="camp" name= "itemFiveFound" alt="Boy's Shorts" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "camp")}/>
+<button id="ablaze" name= "itemOneFound" alt="hanging-picture" title="" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "ablaze")}/>
+  <button id="purring" name= "itemTwoFound" alt="WallPicture" title="" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "purring")}/>
+  <button id="provide" name= "itemThreeFound" alt="carpet" title="" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "provide")}/>
+  <button id="glossy" name= "itemFourFound" alt="WhiteHouse Window" title="" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "glossy")}/>
+  <button id="camp" name= "itemFiveFound" alt="Boy's Shorts" title="" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "camp")}/>
 </div>
 </>
     )

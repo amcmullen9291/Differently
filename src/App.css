@@ -934,5 +934,227 @@ color: slategray;
   background: none;
   border-radius: 15%;
 }
+/* --------------------------picture 4------------------------ */
+
+#image7{
+  background-image: url(./assets/originals/garfield.jpg) ;
+  height: 390px;
+  width: 600px;
+  border: 3px solid red;
+  position: relative;
+}
+
+#image8{
+  background-image: url(./assets/originals/garfield-different.jpg) ;
+  height: 390px;
+  width: 600px;
+  border: 3px solid red;
+  position: relative;
+}
+/* -----------------1---------------------------- */
+#control{
+  border: 7px none;
+  position: absolute;
+  left: 85%;
+  top: 42%;
+  height:14%;
+  width: 15%;
+  background: none;
+  border-radius: 15%;
+}
+#found32{
+  border: 7px solid #E7FF6E;
+  position: absolute;
+  left: 85%;
+  top: 42%;
+  height:14%;
+  width: 15%;
+  background: none;
+  border-radius: 15%;
+}
+#potato{
+  border: 7px none;
+  position: absolute;
+  left: 85%;
+  top: 42%;
+  height:14%;
+  width: 15%;
+  background: none;
+  border-radius: 15%;
+}
+#found37{
+  border: 7px solid #E7FF6E;
+  position: absolute;
+  left: 85%;
+  top: 42%;
+  height:14%;
+  width: 15%;
+  background: none;
+  border-radius: 15%;
+}
+/* --------------------2----------------- */
+#lumber{
+  border: 7px none;
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  height:14%;
+  width: 9%;
+  background: none;
+  border-radius: 15%;
+}
+#found34{
+  border: 7px solid #ff6e92;
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  height:14%;
+  width: 9%;
+  background: none;
+  border-radius: 15%;
+}
+#abroad{
+  border: 7px none;
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  height:14%;
+  width: 9%;
+  background: none;
+  border-radius: 15%;
+}
+#found39{
+  border: 7px solid #ff6e92;
+  position: absolute;
+  left: 11%;
+  top: 20%;
+  height:14%;
+  width: 9%;
+  background: none;
+  border-radius: 15%;
+}
+/* --------------------------3---------------- */
+#whistle{
+  border: 7px none;
+  position: absolute;
+  left: 3%;
+  top: 57%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#found33{
+  border: 7px solid #28d83f;
+  position: absolute;
+  left: 3%;
+  top: 57%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}#brainy{
+  border: 7px none;
+  position: absolute;
+  left: 3%;
+  top: 57%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#found38{
+  border: 7px solid #28d83f;
+  position: absolute;
+  left: 3%;
+  top: 57%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+/* ------------------4------------------ */
+#rabbit{
+  border: 7px none;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#found35{
+  border: 7px solid #ee9208;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+/* ------------------4------------------ */
+#quill{
+  border: 7px none;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#found40{
+  border: 7px solid #ee9208;
+  position: absolute;
+  left: 55%;
+  top: 30%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+/* -----------------5------------------- */
+#bells{
+  border: 7px none;
+  position: absolute;
+  left: 6%;
+  top: 80%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#found31{
+  border: 7px solid #a02fcc;
+  position: absolute;
+  left: 6%;
+  top: 80%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#horse{
+  border: 7px none;
+  position: absolute;
+  left: 6%;
+  top: 80%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
+#found36{
+  border: 7px solid #a02fcc;
+  position: absolute;
+  left: 6%;
+  top: 80%;
+  height:15%;
+  width: 15%;
+  background: none;
+  border-radius: 10%;
+}
 
 

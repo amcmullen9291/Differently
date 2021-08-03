@@ -138,11 +138,11 @@ console.log("Original Pic Attributes:", Original);
   return (
 <>
 <div id="image4">
-  <button id="twig" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange7("itemOneFound", "twig")}/>
-  <button id="silk" name= "itemTwoFound" alt="wallPicture" title="wallPicture" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange9("itemTwoFound", "silk")}/>
-  <button id="answer" name= "itemThreeFound" alt="carpet" title="coal" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange8("itemThreeFound", "answer")}/>
-  <button id="coal" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange10("itemFourFound", "coal")}/>
-  <button id="raspy" name= "itemFiveFound" alt="tabletop" title="tabletop" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange6("itemFiveFound", "raspy")}/>
+  <button id="twig" name= "itemOneFound" alt="chimney" title="" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange7("itemOneFound", "twig")}/>
+  <button id="silk" name= "itemTwoFound" alt="wallPicture" title="" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange9("itemTwoFound", "silk")}/>
+  <button id="answer" name= "itemThreeFound" alt="carpet" title="" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange8("itemThreeFound", "answer")}/>
+  <button id="coal" name= "itemFourFound" alt="WhiteHouse Window" title="" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange10("itemFourFound", "coal")}/>
+  <button id="raspy" name= "itemFiveFound" alt="tabletop" title="" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange6("itemFiveFound", "raspy")}/>
 </div>
 </>
 

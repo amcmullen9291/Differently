@@ -35,10 +35,10 @@ return (
             <h2 className="gallerySign">G A L L E R Y</h2><br/>
             <center><a href={`/Differently/1/smallTown`}><img src={Image} alt="small Town" className="pictures"/></a></center>
             <center><a href={`/Differently/2/A-Living-Room`}><img src={Image4} alt="small Town" className="pictures"/></a></center>
-            <center><a href={`/Differently/3/nascar`}><img src={Image3} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/3/logosUS`}><img src={Image6} alt="small Town" className="pictures"/></a></center>
             <center><a href={`/Differently/4/living-room`}><img src={Image2} alt="small Town" className="pictures"/></a></center>
             <center><a href={`/Differently/5/garfield`}><img src={Image5} alt="small Town" className="pictures"/></a></center>
-            <center><a href={`/Differently/6/logosUS`}><img src={Image6} alt="small Town" className="pictures"/></a></center>
+            <center><a href={`/Differently/6/logosUS`}><img src={Image3} alt="small Town" className="pictures"/></a></center>
         </div>
         <footer className="bottomMarker">     <nav>
         <NavLink to={"/"} id="leaveButton">L    E   A   V   E</NavLink>

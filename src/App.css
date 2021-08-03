@@ -709,5 +709,23 @@ color: slategray;
   width: 12%;
   background: none;
 }
+/* ----------------------picture 3---------------- */
 
+#image5{
+  background-image: url(./assets/originals/logosUS.jpg) ;
+  height: 775px;
+  width: 1275px;
+  border: 3px solid red;
+  position: relative;
+}
+
+#image6{
+  background-image: url(./assets/originals/logosUS-different.jpg) ;
+  height: 775px;
+  width: 1275px;
+  border: 3px solid red;
+  position: relative;
+}
+
+/* ---------------------------3----------------------- */
 

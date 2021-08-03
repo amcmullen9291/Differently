@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 
 function OriginalPicture2() {
   
-     const [Original2, setOriginal2] = useState ({
+     const [Original, setOriginal] = useState ({
  id: "",
- pictureName :'picture2',
+ pictureName :'smallTown',
  source: "",
  picture: 18,
  alt: "Differently. Art", 
@@ -31,9 +31,9 @@ function OriginalPicture2() {
  name: " ",
 })
 
-const [Different2, setDifferent2] = useState ({
+const [Different, setDifferent] = useState ({
   id: "",
-  pictureName :'picture-Different2',
+  pictureName :'smallTown-different',
   source: "",
   picture: 18,
   alt: 'Differently. Art', 
@@ -63,13 +63,13 @@ const [Different2, setDifferent2] = useState ({
      var itemFound = named;
      console.log("pre set:", itemFound)
      console.log("Button id:", id)
-     setOriginal2({...Original2, [`${named}`]: true})
+     setOriginal({...Original, [`${named}`]: true})
      const changed = document.getElementById(`${id}`)
-     changed.id = "found1";
-     const Different2change1 = document.getElementById('pillow');
-     setDifferent2({...Original2, [`${named}`]: true});
-     Different2change1.id = "found6";
-     Different2change1.disabled = true;   
+     changed.id = "found11";
+     const differentchange1 = document.getElementById('raspy');
+     setDifferent({...Original, [`${named}`]: true});
+     differentchange1.id = "found16";
+     differentchange1.disabled = true;   
      changed.disabled = true;
     }
 
@@ -78,13 +78,13 @@ const [Different2, setDifferent2] = useState ({
       var itemFound = named;
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
-      setOriginal2({...Original2, [`${named}`]: true})
+      setOriginal({...Original, [`${named}`]: true})
       const changed2 = document.getElementById(`${id}`)
-      changed2.id = "found2"
-      const Different2change2 = document.getElementById('sherbet');
-      setOriginal2({...Original2, [`${named}`]: true});
-      Different2change2.id = "found7";
-      Different2change2.disabled = true;    
+      changed2.id = "found12"
+      const differentchange2 = document.getElementById('twig');
+      setOriginal({...Original, [`${named}`]: true});
+      differentchange2.id = "found17";
+      differentchange2.disabled = true;    
       changed2.disabled = true;
      }
 
@@ -93,13 +93,13 @@ const [Different2, setDifferent2] = useState ({
       var itemFound = named;
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
-      setOriginal2({...Original2, [`${named}`]: true})
+      setOriginal({...Original, [`${named}`]: true})
       const changed3 = document.getElementById(`${id}`)
-      changed3.id = "found3";
-      const Different2change3 = document.getElementById('ostrich');
-      setOriginal2({...Original2, [`${named}`]: true});
-      Different2change3.id = "found8";
-      Different2change3.disabled = true;    
+      changed3.id = "found13";
+      const differentchange3 = document.getElementById('answer');
+      setOriginal({...Original, [`${named}`]: true});
+      differentchange3.id = "found18";
+      differentchange3.disabled = true;    
       changed3.disabled = true;
      }
 
@@ -108,13 +108,13 @@ const [Different2, setDifferent2] = useState ({
       var itemFound = named;
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
-      setOriginal2({...Original2, [`${named}`]: true})
+      setOriginal({...Original, [`${named}`]: true})
       const changed4 = document.getElementById(`${id}`)
-      changed4.id = "found4";
-      const Different2change4 = document.getElementById('marmalade');
-      setOriginal2({...Original2, [`${named}`]: true});
-      Different2change4.id = "found9";
-      Different2change4.disabled = true;    
+      changed4.id = "found14";
+      const differentchange4 = document.getElementById('silk');
+      setOriginal({...Original, [`${named}`]: true});
+      differentchange4.id = "found19";
+      differentchange4.disabled = true;    
       changed4.disabled = true;
      }
  
@@ -123,27 +123,27 @@ const [Different2, setDifferent2] = useState ({
       var itemFound = named;
       console.log("pre set:", itemFound)
       console.log("Button id:", id)
-      setOriginal2({...Original2, [`${named}`]: true})
+      setOriginal({...Original, [`${named}`]: true})
       const changed5 = document.getElementById(`${id}`)
-      changed5.id = "found5";
-      const Different2change5 = document.getElementById('snorkel');
-      setOriginal2({...Original2, [`${named}`]: true});
-      Different2change5.id = "found10";
-      Different2change5.disabled = true;    
+      changed5.id = "found15";
+      const differentchange5 = document.getElementById('coal');
+      setOriginal({...Original, [`${named}`]: true});
+      differentchange5.id = "found20";
+      differentchange5.disabled = true;    
       changed5.disabled = true;
      }
 
- console.log("Original2 Picture Attributes:", Original2);
- console.log("Different2 Picture Attributes:", Different2);
+ console.log("Original Picture Attributes:", Original);
+ console.log("Different Picture Attributes:", Different);
 
  return (
 <>
 <div id="image3">
-<button id="pickles" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
-  <button id="popcorn" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "popcorn")}/>
-  <button id="sidewalks" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "sidewalks")}/>
-  <button id="cheesecake" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "cheesecake")}/>
-  <button id="apples" name= "itemFiveFound" alt="Boy's Shorts" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "apples")}/>
+<button id="ablaze" name= "itemOneFound" alt="hanging-picture" title="hanging-picture" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "ablaze")}/>
+  <button id="purring" name= "itemTwoFound" alt="WallPicture" title="wallPicture" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "purring")}/>
+  <button id="provide" name= "itemThreeFound" alt="carpet" title="carpet" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "provide")}/>
+  <button id="glossy" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "glossy")}/>
+  <button id="camp" name= "itemFiveFound" alt="Boy's Shorts" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "camp")}/>
 </div>
 </>
     )
@@ -151,8 +151,8 @@ const [Different2, setDifferent2] = useState ({
 
   // const mapStateToProps = (state) => {
   //   return {
-  //     Original2: state.Original2,
-  //     Different2: state.Original2
+  //     Original: state.Original,
+  //     Different: state.Original
   //   }
   // } 
 

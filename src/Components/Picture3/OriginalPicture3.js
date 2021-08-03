@@ -65,10 +65,10 @@ const [Different3, setDifferent3] = useState ({
      console.log("Button id:", id)
      setOriginal3({...Original3, [`${named}`]: true})
      const changed = document.getElementById(`${id}`)
-     changed.id = "found1";
-     const Different3change1 = document.getElementById('pillow');
+     changed.id = "found21";
+     const Different3change1 = document.getElementById('sprout');
      setDifferent3({...Original3, [`${named}`]: true});
-     Different3change1.id = "found6";
+     Different3change1.id = "found26";
      Different3change1.disabled = true;   
      changed.disabled = true;
     }
@@ -80,10 +80,10 @@ const [Different3, setDifferent3] = useState ({
       console.log("Button id:", id)
       setOriginal3({...Original3, [`${named}`]: true})
       const changed2 = document.getElementById(`${id}`)
-      changed2.id = "found2"
-      const Different3change2 = document.getElementById('sherbet');
+      changed2.id = "found22"
+      const Different3change2 = document.getElementById('breezy');
       setOriginal3({...Original3, [`${named}`]: true});
-      Different3change2.id = "found7";
+      Different3change2.id = "found27";
       Different3change2.disabled = true;    
       changed2.disabled = true;
      }
@@ -95,10 +95,10 @@ const [Different3, setDifferent3] = useState ({
       console.log("Button id:", id)
       setOriginal3({...Original3, [`${named}`]: true})
       const changed3 = document.getElementById(`${id}`)
-      changed3.id = "found3";
-      const Different3change3 = document.getElementById('ostrich');
+      changed3.id = "found23";
+      const Different3change3 = document.getElementById('moldy');
       setOriginal3({...Original3, [`${named}`]: true});
-      Different3change3.id = "found8";
+      Different3change3.id = "found28";
       Different3change3.disabled = true;    
       changed3.disabled = true;
      }
@@ -110,10 +110,10 @@ const [Different3, setDifferent3] = useState ({
       console.log("Button id:", id)
       setOriginal3({...Original3, [`${named}`]: true})
       const changed4 = document.getElementById(`${id}`)
-      changed4.id = "found4";
-      const Different3change4 = document.getElementById('marmalade');
+      changed4.id = "found24";
+      const Different3change4 = document.getElementById('water');
       setOriginal3({...Original3, [`${named}`]: true});
-      Different3change4.id = "found9";
+      Different3change4.id = "found29";
       Different3change4.disabled = true;    
       changed4.disabled = true;
      }
@@ -125,10 +125,10 @@ const [Different3, setDifferent3] = useState ({
       console.log("Button id:", id)
       setOriginal3({...Original3, [`${named}`]: true})
       const changed5 = document.getElementById(`${id}`)
-      changed5.id = "found5";
-      const Different3change5 = document.getElementById('snorkel');
+      changed5.id = "found25";
+      const Different3change5 = document.getElementById('thread');
       setOriginal3({...Original3, [`${named}`]: true});
-      Different3change5.id = "found10";
+      Different3change5.id = "found30";
       Different3change5.disabled = true;    
       changed5.disabled = true;
      }
@@ -139,11 +139,11 @@ const [Different3, setDifferent3] = useState ({
  return (
 <>
 <div id="image5">
-<button id="pickles" name= "itemOneFound" alt="chimney" title="chimney" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "pickles")}/>
-  <button id="popcorn" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "popcorn")}/>
-  <button id="sidewalks" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "sidewalks")}/>
-  <button id="cheesecake" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "cheesecake")}/>
-  <button id="apples" name= "itemFiveFound" alt="Boy's Shorts" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "apples")}/>
+<button id="muddle" name= "itemOneFound" alt="zappos" title="zappos" href="#" coords="359,92,413,115" shape="rect" onClick={(id) => HandleChange2("itemOneFound", "muddle")}/>
+  <button id="consist" name= "itemTwoFound" alt="doorTop" title="doorTop" href="#" coords="470,257,505,285" shape="rect"onClick={(id) => HandleChange4("itemTwoFound", "consist")}/>
+  <button id="simple" name= "itemThreeFound" alt="missingWindow" title="missingWindow" href="#" coords="7,190,59,258" shape="rect"onClick={(id) => HandleChange3("itemThreeFound", "simple")}/>
+  <button id="pets" name= "itemFourFound" alt="WhiteHouse Window" title="WhiteHouse Window" href="#" coords="235,163,278,189" shape="rect"onClick={(id) => HandleChange5("itemFourFound", "pets")}/>
+  <button id="rapid" name= "itemFiveFound" alt="Boy's Shorts" title="Boy's Shorts" href="#" coords="380,431,405,454" shape="rect" onClick={(id) => HandleChange("itemFiveFound", "rapid")}/>
 </div>
 </>
     )

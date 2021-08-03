@@ -12,6 +12,10 @@ export default function PuzzleContainer() {
     </nav>
     <div className="mainLogo">
     <b>Ditto.</b> <br/>
+
+    <div id="Counter">
+      
+    </div>
     </div>
     <div className="mainLogoRight">
     <form className = "myform">

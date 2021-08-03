@@ -17,9 +17,9 @@ function App() {
           <Route path={"/"} exact component={FrontPage}/>
           <Route path={"/Differently"} exact component={Menu}/>
           <Route path={"/Differently/1/smallTown"} exact component={PuzzleContainer}/>
-          <Route path={"/Differently/2/iceFishing"} exact component={PuzzleContainer2}/>
+          <Route path={"/Differently/2/A-Living-Room"} exact component={PuzzleContainer2}/>
           <Route path={"/Differently/3/nascar"} exact component={PuzzleContainer3}/>
-          <Route path={"/Differently/4/living-room"} exact component={PuzzleContainer4}/>
+          <Route path={"/Differently/4/A-Living-Room"} exact component={PuzzleContainer4}/>
           <Route path={"/Differently/5/garfield"} exact component={PuzzleContainer5}/>
           <Route path={"/Differently/6/logosUS"} exact component={PuzzleContainer6}/>
           <Redirect to={"/"} />

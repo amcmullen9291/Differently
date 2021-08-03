@@ -495,7 +495,7 @@ color: slategray;
   width: 8%;
   background: none;
 }
-
+/* --------------------------------------------- */
 #indexButton{
   color: #FF9472;
   width:fit-content;
@@ -503,4 +503,19 @@ color: slategray;
   font-size: 36px;
 }
 
-/* ----------------------image 2 CSS-------------------------- */
+/* ----------------------background images CSS-------------------------- */
+#image3{
+  background-image: url(./assets/originals/living-room.jpg) ;
+  height: 700px;
+  width: 900px;
+  border: 3px solid red;
+  position: relative;
+}
+
+#image4{
+  background-image: url(./assets/originals/living-room-different.jpg) ;
+  height: 700px;
+  width: 900px;
+  border: 3px solid red;
+  position: relative;
+}
